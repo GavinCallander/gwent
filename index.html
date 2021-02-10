@@ -11,9 +11,15 @@
 <body>
     <div id="game">
         <div class="game-area" id="left-pane">
-            <div class="leaders"></div>
+            <div class="container leaders">
+                <div class="leader" id="comp-leader"></div>
+                <div class="game-details" id="comp-details"></div>
+            </div>
             <div id="weather"></div>
-            <div class="leaders"></div>
+            <div class="container leaders">
+                <div class="game-details" id="player-details"></div>
+                <div class="leader" id="player-leader"></div>
+            </div>
         </div>
         <div class="game-area" id="play-area">
             <div class="side" id="comp-side"></div>
@@ -21,8 +27,14 @@
             <div id="hand"></div>
         </div>
         <div class="game-area" id="right-pane">
-            <div class="piles"></div>
-            <div class="piles"></div>
+            <div class="container piles">
+                <div class="disc" id="comp-disc"></div>
+                <div class="deck" id="comp-deck"></div>
+            </div>
+            <div class="container piles">
+                <div class="disc" id="player-disc"></div>
+                <div class="deck" id="player-deck"></div>
+            </div>
         </div>
     </div>
 </body>
